@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './component/login/login.component';
 import { ForgetPasswordComponent } from './component/forget-password/forget-password.component';
 import { NotFoundComponent } from './component/not-found/not-found.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { NotFoundComponent } from './component/not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
